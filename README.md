@@ -2,12 +2,12 @@
 
 ## Project Overview  
 This project aims to develop a diagnostic system that monitors the performance, energy efficiency, and security of a multi-node AI architecture. The architecture uses NVIDIA Jetson Nano devices running Ubuntu Linux, with CUDA for GPU acceleration, and integrates Prometheus for performance monitoring and Grafana for data visualization.  
-In this project, I set up a distributed system where multiple Jetson Nano nodes run AI workloads, and a central server collect and display performance data. The goal is to implement real-time monitoring of resource usage, energy consumption, and secure communication between nodes.
+In this project, I set up a distributed system where multiple Jetson Nano nodes run AI workloads, and a central server collect and display performance data. The goal is to implement real-time monitoring of resource usage, energy consumption, and secure communication between nodes. I start the project by using one NVIDIA Jetson Nano to then switch to 10 ten NVIDIA Jetson Nano devices.
 
 ## Required Hardware
 
 ### Nodes (AI Computing Units)  
-- **NVIDIA Jetson Nano OKdo Development Kit:**  
+- **10 NVIDIA Jetson Nano OKdo Development Kit:**  
   Each Jetson Nano serve as a computing node where deep learning models will be deployed and run. The Jetson Nano has a 4-core ARM Cortex-A57 processor and a 128-core Maxwell GPU, which be used to accelerate AI tasks via CUDA.  
   Each Jetson Nano be connected to the network and will communicate with the central server to collect data.  
 - **Energy Monitoring:**  
